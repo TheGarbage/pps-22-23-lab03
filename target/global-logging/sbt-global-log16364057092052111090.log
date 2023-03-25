@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\gugli\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\gugli\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Amazon.com Inc. Java 11.0.18)
+[debug]       Load.loadUnit: plugins took 74.7109ms
+[debug]       Load.loadUnit: defsScala took 0.1986ms
+[debug] [Loading] Scanning directory C:\Users\gugli\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\gugli\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.3499 ms
+[debug]           Load.resolveProject(global-plugins) took 32.1074ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\gugli\.sbt\1.0\plugins, plugins: List(<none>))) took 64.3101ms
+[debug] [Loading] Done in C:\Users\gugli\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 81.0536ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1437ms
+[debug]     Load.loadUnit(file:/C:/Users/gugli/.sbt/1.0/plugins/, ...) took 162.4509ms
+[debug]   Load.apply: load took 278.7078ms
+[debug]   Load.apply: resolveProjects took 4.2482ms
+[debug]   Load.apply: finalTransforms took 47.2725ms
+[debug]   Load.apply: config.delegates took 14.7273ms
+[debug]   Load.apply: Def.make(settings)... took 552.8231ms
+[debug]   Load.apply: structureIndex took 125.0461ms
+[debug]   Load.apply: mkStreams took 5.0966ms
+[info] loading global plugins from C:\Users\gugli\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2331.2236ms
+[debug]           Load.loadUnit: plugins took 21.024ms
+[debug]           Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03\project
+[debug]             Load.loadUnit: mkEval took 6.0629ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2689 ms
+[info] loading settings for project pps-22-23-lab03-build from idea.sbt ...
+[debug]               Load.resolveProject(pps-22-23-lab03-build) took 3.052ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id pps-22-23-lab03-build, base: G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03\project, plugins: List(<none>))) took 4.7265ms
+[debug] [Loading] Done in G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03\project, returning: (pps-22-23-lab03-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2167.4176ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.3208ms
+[debug]         Load.loadUnit(file:/G:/Università/Non_Date/Paradigmi%20di%20programmazione/Lab4/pps-22-23-lab03/project/, ...) took 2191.3819ms
+[debug]       Load.apply: load took 2192.3783ms
+[debug]       Load.apply: resolveProjects took 0.1037ms
+[debug]       Load.apply: finalTransforms took 21.9408ms
+[debug]       Load.apply: config.delegates took 0.2968ms
+[debug]       Load.apply: Def.make(settings)... took 81.8873ms
+[debug]       Load.apply: structureIndex took 19.6796ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4680.7696ms
+[debug]     Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03
+[debug]       Load.loadUnit: mkEval took 0.2359ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 4.0472 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 86.3289ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03, plugins: List(<none>))) took 95.5057ms
+[debug] [Loading] Done in G:\Università\Non_Date\Paradigmi di programmazione\Lab4\pps-22-23-lab03, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 962.3206ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.0513ms
+[debug]   Load.loadUnit(file:/G:/Università/Non_Date/Paradigmi%20di%20programmazione/Lab4/pps-22-23-lab03/, ...) took 5646.6495ms
+[debug] Load.apply: load took 5650.3ms
+[debug] Load.apply: resolveProjects took 0.142ms
+[debug] Load.apply: finalTransforms took 43.867ms
+[debug] Load.apply: config.delegates took 0.4977ms
+[debug] Load.apply: Def.make(settings)... took 68.4058ms
+[debug] Load.apply: structureIndex took 20.7227ms
+[debug] Load.apply: mkStreams took 0.0056ms
+[info] set current project to pps-code-lab-3 (in build file:/G:/Università/Non_Date/Paradigmi%20di%20programmazione/Lab4/pps-22-23-lab03/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 64242 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 64242, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to pps-code-lab-3 (in build file:/G:/Università/Non_Date/Paradigmi%20di%20programmazione/Lab4/pps-22-23-lab03/)
+[debug] > Exec(idea-shell, None, None)
